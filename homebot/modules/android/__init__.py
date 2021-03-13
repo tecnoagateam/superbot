@@ -38,7 +38,7 @@ def orangefox(update: Update, context: CallbackContext):
     device = " ".join(args)
     link = get(f"https://api.orangefox.download/v3/releases/?codename={device}&sort=date_desc&limit=1")
     if not device:
-        update.effective_message.reply_text("try /ofox j7velte")
+        update.effective_message.reply_text("Error: use /ofox codename")
         return
     elif link.status_code == 404:
         message = f"OrangeFox currently is not avaliable for {device}"
@@ -86,7 +86,7 @@ def twrp(update: Update, context: CallbackContext):
     device = " ".join(args)
     link = get(f"https://eu.dl.twrp.me/{device}")
     if not device:
-        update.effective_message.reply_text("try /twrp j7velte")
+        update.effective_message.reply_text("Error: use /twrp codename")
         return
     elif link.status_code == 404:
         message = f"TWRP currently is not avaliable for {device}"
