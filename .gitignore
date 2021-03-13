@@ -85,5 +85,5 @@ dmypy.json
 .idea/
 .vscode/
 
-# HomeBot configuration file
+# ZajavaBot configuration file
 config.env

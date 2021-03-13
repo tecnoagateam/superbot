@@ -1,5 +1,3 @@
-"""HomeBot core module."""
-
 from homebot import __version__, get_config
 from homebot.core.admin import user_is_admin
 from homebot.core.bot import get_bot_context
@@ -8,7 +6,7 @@ from telegram.ext import CallbackContext
 from telegram.update import Update
 
 def start(update: Update, context: CallbackContext):
-	update.message.reply_text("Hi! I'm HomeBot, and I'm alive\n"
+	update.message.reply_text("Hi! I'm ZajavaBot, and I'm alive\n"
 							  f"Version {__version__}\n"
 							  "To see all the available modules, type /modules")
 

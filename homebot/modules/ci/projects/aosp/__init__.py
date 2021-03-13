@@ -1,5 +1,3 @@
-"""AOSP building CI module."""
-
 from homebot import bot_path, get_config
 from homebot.modules.ci.parser import CIParser
 from homebot.modules.ci.artifacts import Artifacts, STATUS_UPLOADING, STATUS_UPLOADED, STATUS_NOT_UPLOADED

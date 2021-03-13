@@ -1,5 +1,3 @@
-"""HomeBot cowsay module."""
-
 from contextlib import redirect_stdout
 from cowsay import cow
 import io

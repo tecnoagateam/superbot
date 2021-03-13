@@ -1,5 +1,3 @@
-"""HomeBot animated emoji module."""
-
 from telegram.dice import Dice
 from telegram.ext import CallbackContext
 from telegram.update import Update

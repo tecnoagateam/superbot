@@ -1,5 +1,3 @@
-"""HomeBot CI module."""
-
 from homebot import get_config
 from homebot.core.admin import user_is_admin
 from homebot.core.logging import LOGE, LOGI
