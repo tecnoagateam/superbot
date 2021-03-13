@@ -8,3 +8,5 @@ python-dotenv
 requests
 speedtest-cli
 twrpdtgen
+bs4
+ujson
