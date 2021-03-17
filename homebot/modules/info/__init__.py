@@ -1,5 +1,6 @@
 from telegram import Update,ParseMode
 from telegram.ext import CallbackContext
+from homebot.core.modules_manager import ModuleBase
 from os import remove
 
 class Module(ModuleBase):
@@ -57,5 +58,5 @@ def chat_id(update:Update, context:CallbackContext):
 commands = {
     info: ['info'],
     id: ["id","get_id"],
-    chat_id: ["get_chat","chat_id","chat"],
+    chat_id: ["get_chat","chat_id","chat"]
 }
