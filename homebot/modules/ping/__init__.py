@@ -1,6 +1,11 @@
 import time
 from datetime import datetime
 
+class Module(ModuleBase):
+	name = "ping"
+	description = "check your bot ping"
+	version = "1.0.0"
+	
 def ping(update,context):
     before = datetime.now()
     message = update.message.reply_text("Appraising..")
