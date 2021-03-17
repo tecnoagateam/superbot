@@ -1,7 +1,13 @@
 from telegram import Update,ParseMode
 from telegram.ext import CallbackContext
+from homebot.core.modules_manager import ModuleBase
 from os import remove
 
+class Module(ModuleBase):
+	name = "INFO"
+	description = "Fetch user information"
+	version = "1.0.0"
+	
 def info(update:Update,context:CallbackContext):
     chat_id = update.message.chat_id
     message = update.message
