@@ -55,7 +55,7 @@ def chat_id(update:Update, context:CallbackContext):
     message.reply_text(f"this chat's id <code>{message.chat_id}</code>",parse_mode="html")
 
 commands = {
-	info: ['info'],
+    info: ['info'],
     id: ["id","get_id"],
-    chat_id: ["get_chat","chat_id","chat"]
+    chat_id: ["get_chat","chat_id","chat"],
 }
