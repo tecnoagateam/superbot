@@ -2,23 +2,27 @@ from telegram.dice import Dice
 from telegram.ext import CallbackContext
 from telegram.update import Update
 
-def basket(update: Update, context: CallbackContext):
+def basket(self, update: Update, context: CallbackContext):
 	update.message.reply_dice(emoji=Dice.BASKETBALL)
 
-def dart(update: Update, context: CallbackContext):
+def bowling(self, update: Update, context: CallbackContext):
+	update.message.reply_dice(emoji=Dice.BOWLING)
+
+def dart(self, update: Update, context: CallbackContext):
 	update.message.reply_dice(emoji=Dice.DARTS)
 
-def dice(update: Update, context: CallbackContext):
+def dice(self, update: Update, context: CallbackContext):
 	update.message.reply_dice(emoji=Dice.DICE)
 
-def football(update: Update, context: CallbackContext):
+def football(self, update: Update, context: CallbackContext):
 	update.message.reply_dice(emoji=Dice.FOOTBALL)
 
-def slotmachine(update: Update, context: CallbackContext):
+def slotmachine(self, update: Update, context: CallbackContext):
 	update.message.reply_dice(emoji=Dice.SLOT_MACHINE)
-
+    
 commands = {
-	basket: ['basket'],
+    basket: ['basket'],
+	bowling: ['bowling'],
 	dart: ['dart'],
 	dice: ['dice'],
 	football: ['football'],
