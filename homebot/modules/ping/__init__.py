@@ -1,3 +1,4 @@
+from homebot.core.modules_manager import ModuleBase
 import time
 from datetime import datetime
 
