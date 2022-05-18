@@ -1,7 +1,7 @@
 # ZajavaBot, a modular Telegram bot, written in Python
 
 ## How to use it
-- Clone `https://github.com/el0xren/ZajavaBot`
+- Clone `https://github.com/AzeMusic/superbot`
 - Execute `pip3 install .` to install all the dependencies
 - Rename `example_config.env` to `config.env`
 - Put a bot token in `config.env`
@@ -31,7 +31,7 @@ The following env variables are supported:
 - `CI_TWRPDTGEN_CHANNEL_ID`: Channel ID where to post new releases.
 - `WEATHER_API_KEY`: Weather api get one from `https://openweathermap.org/api`.
 - `WEATHER_TEMP_UNIT`: Supported values: Fahrenheit `imperial`, Celsius `metric`, Kelvin `empty`
-<a href="https://heroku.com/deploy?template=https://github.com/el0xren/ZajavaBot">
+<a href="https://heroku.com/deploy?template=https://github.com/AzeMusic/superbot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 
@@ -41,16 +41,4 @@ The following env variables are supported:
 - Easy to understand
 - It uses python-telegram-bot, one of the most used Telegram bot API library
 
-## Modules included
 
-- weather | Get weather updates of a city
-- speedtest | Test bot's Internet connection speed
-- ci | Automated CI system, you can trigger AOSP custom ROMs and custom recoveries building, with progress updating
-- cowsay
-- And more...
-
-## Wiki
-
-Want to see how this bot works or you want to create a module for this bot?
-
-Head over to [the wiki](https://github.com/SebaUbuntu/HomeBot/wiki) for more informations
