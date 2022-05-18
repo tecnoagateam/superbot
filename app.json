@@ -1,7 +1,7 @@
 {
-  "name": "ZajavaBot",
+  "name": "NRxSportsBot",
   "description": "A modular Telegram bot",
-  "repository": "https://github.com/el0xren/ZajavaBot",
+  "repository": "https://github.com/AzeMusic/superbot",
   "logo": "https://telegra.ph/file/cb19b254727161fad1b0a.jpg",
   "keywords": ["telegram", "modular", "bot"
    ],
@@ -9,17 +9,17 @@
       "BOT_API_TOKEN": {
          "description": "Your bot token. Get one from @BotFather.",
          "required": true,
-         "value": ""
+         "value": "5343751991:AAGJ0Ub9LF7joLgZzHN9adCmbBGhcQeOA-o"
       },
       "BOT_ADMIN_USER_IDS": {
          "description": "Your ID.",
          "required": true,
-         "value": ""
+         "value": "1924693109"
       },
       "CI_APPROVED_USER_IDS": {
          "description": "Your ID.",
          "required": true,
-         "value": ""
+         "value": "5044441800"
       }
 
    }
