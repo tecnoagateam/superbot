@@ -6,9 +6,9 @@ from telegram.ext import CallbackContext
 from telegram.update import Update
 
 def start(update: Update, context: CallbackContext):
-	update.message.reply_text("Hi! I'm ZajavaBot, and I'm alive\n"
-							  f"Version {__version__}\n"
-							  "To see all the available modules, type /modules")
+	update.message.reply_text("👋 Salam, Xoş Gəldin\n"
+							  f"🍁 Bot Versiası {__version__}\n"
+							  "**📚 Əmrlər üçün /modulas əmrinə toxunun.**")
 
 def modules(update: Update, context: CallbackContext):
 	message = "Loaded modules:\n\n"
