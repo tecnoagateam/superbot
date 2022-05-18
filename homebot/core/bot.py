@@ -27,7 +27,7 @@ class Bot:
 		self.modules = {}
 		LOGI("Bot işə salındı")
 
-		LOGI("Parsing modules")
+		LOGI("Modulların təhlili")
 		for module in [name for _, name, _ in iter_modules([modules_path])]:
 			try:
 				module = Module(module)
@@ -36,12 +36,12 @@ class Bot:
 					 f"Error: {e}")
 			else:
 				self.modules[module] = "Disabled"
-		LOGI("Modules parsed")
+		LOGI("Modullar təhlil edildi")
 
-		LOGI("Loading modules")
+		LOGI("Modullar yuklənir")
 		for module in self.modules:
 			self.load_module(module)
-		LOGI("Modules loaded")
+		LOGI("Modullar yükləndi")
 
 		# TODO: Find a better way to provide
 		# modules status to modules itself
