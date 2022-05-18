@@ -1,4 +1,4 @@
-# ```NRxSports Bot:``` **Python dilində yazılmış sadə telegram bot'un.**
+# ```NRxSports Bot:``` **Python dilində yazılmış sadə telegram bot'u.**
 
 --------
 ### ```Heroku Config```
