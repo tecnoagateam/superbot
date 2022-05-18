@@ -1,4 +1,4 @@
-# ZajavaBot, a modular Telegram bot, written in Python
+# NRxSports, a modular Telegram bot, written in Python
 
 ## How to use it
 - Clone `https://github.com/AzeMusic/superbot`
