@@ -1,7 +1,7 @@
 # ```NRxSports Bot:``` **Python dilində yazılmış sadə telegram bot'u.**
 
 --------
-### ```Heroku Config```
+## **🍁HEROKU CONFİG**
 - `BOT_API_TOKEN`: @botfather dən bot token alın.
 - `BOT_ADMIN_USER_IDS`: Admin idsi.
 - `CI_APPROVED_USER_IDS`: Sudo istifadəçi idsi çoxluqlar ayırın.
@@ -13,6 +13,7 @@
 </a>
 
 --------
-</a> Credits:
+</a> **Credits:**
    [MR AĞA](t.me/tenha055) ```DEV```
+   ```[BİLİM ADAM](t.me/tenha055)``` ```DEV```
 </a>
