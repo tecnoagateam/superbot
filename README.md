@@ -4,7 +4,7 @@
 ## **🍁HEROKU CONFİG**
 - `BOT_API_TOKEN`: @botfather dən bot token alın.
 - `BOT_ADMIN_USER_IDS`: Admin idsi.
-- `CI_APPROVED_USER_IDS`: Sudo istifadəçi idsi çoxluqlar ayırın.
+- `CI_APPROVED_USER_IDS`: Sudo istifadəçi idsi çoxluqla ayırın.
  
 ---------
 ## 🍁**HEROKU DEPLOY**
