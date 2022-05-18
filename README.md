@@ -13,6 +13,6 @@
 </a>
 
 --------
-<a href=Credits:
+<a href= Credits:
    [MR AĞA](t.me/tenha055) ```DEV```
 </a>
