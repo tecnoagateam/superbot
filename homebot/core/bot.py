@@ -14,18 +14,18 @@ def get_bot_context():
 
 class Bot:
 	"""
-	This class represent a bot instance.
+	Bu sinif bir bot nümunəsini təmsil edir.
 	"""
 	def __init__(self, token):
 		"""
-		Initialize the bot and its modules.
+		Botu və onun modullarını işə salın.
 		"""
-		LOGI("Initializing bot")
+		LOGI("Bot işə salınır")
 		self.updater = Updater(token=token, use_context=True)
 		self.dispatcher = self.updater.dispatcher
 		self.dispatcher.add_error_handler(error_handler, True)
 		self.modules = {}
-		LOGI("Bot initialized")
+		LOGI("Bot işə salındı")
 
 		LOGI("Parsing modules")
 		for module in [name for _, name, _ in iter_modules([modules_path])]:
