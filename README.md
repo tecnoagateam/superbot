@@ -15,5 +15,6 @@
 --------
 </a> **Credits:**
 - [MR AĞA](t.me/tenha055) ```DEV```
-- [BİLİM ADAM](```t.me/tenha055```) ```DEV```
+----
+- [BİLİM ADAM](t.me/tenha055) ```DEV```
 </a>
