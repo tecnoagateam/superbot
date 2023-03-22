@@ -9,7 +9,7 @@
       "BOT_API_TOKEN": {
          "description": "Your bot token. Get one from @BotFather.",
          "required": true,
-         "value": "5343751991:AAGJ0Ub9LF7joLgZzHN9adCmbBGhcQeOA-o"
+         "value": "5192558668:AAHLhH7gCYZ8nKnmTL-zsvTL3qqINdqgbo0"
       },
       "BOT_ADMIN_USER_IDS": {
          "description": "Your ID.",
